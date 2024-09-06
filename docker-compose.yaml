@@ -1,0 +1,11 @@
+services:
+  postgresql:
+    image: 'bitnami/postgresql:latest'
+    ports:
+      - 5432:5432
+    environment:  #var de ambiente
+      - POSTGRESQL_DATABASE=${PG_DATABASE}
+      - POSTGRESQL_USERNAME=${PG_USERNAME}
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD}
+    volumes:
+      - ./data:/bitnami/postgresql   #salva na pasta data do composer
