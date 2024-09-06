@@ -1,0 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+
+CREATE TABLE client (
+  id UUID get_random_uuid() PRIMARY KEY,
+  name VARCHAR(256) NOT NULL,
+  age INTEGER(2) NOT NULL,
+  address VARCHAR(256) NOT NULL,
+  cpf VARCHAR(50) NOT NULL
+);
