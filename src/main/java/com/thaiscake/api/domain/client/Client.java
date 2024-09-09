@@ -1,4 +1,4 @@
-package com.thaiscake.api.domain;
+package com.thaiscake.api.domain.client;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
