@@ -1,8 +1,8 @@
 package com.thaiscake.api.domain;
 
+import com.thaiscake.api.domain.client.Client;
 import jakarta.persistence.*;
 
-import java.util.List;
 import java.util.UUID;
 
 @Table(name = "order")
