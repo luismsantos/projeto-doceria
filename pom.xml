@@ -84,6 +84,14 @@
 			<version>3.4.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-jaxrs -->
+		<dependency>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-jaxrs</artifactId>
+			<version>1.6.14</version>
+		</dependency>
+
+
 
 	</dependencies>
 
