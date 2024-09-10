@@ -1,6 +1,6 @@
 package com.thaiscake.api.repositories;
 
-import com.thaiscake.api.domain.Product;
+import com.thaiscake.api.domain.product.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package com.thaiscake.api.domain;
+package com.thaiscake.api.domain.product;
 
 
 import jakarta.persistence.Entity;

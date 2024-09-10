@@ -1,4 +1,4 @@
-package com.thaiscake.api.domain;
+package com.thaiscake.api.domain.order;
 
 import com.thaiscake.api.domain.client.Client;
 import jakarta.persistence.*;

@@ -1,6 +1,8 @@
-package com.thaiscake.api.domain;
+package com.thaiscake.api.domain.orderItens;
 
 
+import com.thaiscake.api.domain.order.Order;
+import com.thaiscake.api.domain.product.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
